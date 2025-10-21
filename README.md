@@ -10,7 +10,7 @@ Install
 Install with pip:
 
 ```bash
-pip install https://github.com/JiwanChung/stitch2d_cli.git
+pip install "git+https://github.com/JiwanChung/stitch2d_cli.git"
 ```
 
 Quick start
