@@ -1,2 +1,0 @@
-[console_scripts]
-stitch2d-cli = stitch2d_cli.cli:main

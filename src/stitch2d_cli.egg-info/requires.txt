@@ -1,5 +1,0 @@
-stitch2d>=1.2
-numpy>=1.24
-
-[:platform_system == "Windows"]
-opencv-python-headless>=4.9
