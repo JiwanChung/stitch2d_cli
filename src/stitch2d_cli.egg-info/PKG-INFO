@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: stitch2d-cli
+Version: 0.1.0
+Summary: Thin CLI wrapper around adamancer/stitch2d for microscope tile stitching
+Author-email: Your Name <you@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/yourname/stitch2d-cli
+Project-URL: Source, https://github.com/adamancer/stitch2d
+Project-URL: Documentation, https://stitch2d.readthedocs.io/
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: stitch2d>=1.2
+Requires-Dist: opencv-python-headless>=4.9; platform_system == "Windows"
+Requires-Dist: numpy>=1.24

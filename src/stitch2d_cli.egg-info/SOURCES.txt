@@ -1,0 +1,10 @@
+pyproject.toml
+src/stitch2d_cli/__init__.py
+src/stitch2d_cli/__main__.py
+src/stitch2d_cli/cli.py
+src/stitch2d_cli.egg-info/PKG-INFO
+src/stitch2d_cli.egg-info/SOURCES.txt
+src/stitch2d_cli.egg-info/dependency_links.txt
+src/stitch2d_cli.egg-info/entry_points.txt
+src/stitch2d_cli.egg-info/requires.txt
+src/stitch2d_cli.egg-info/top_level.txt
