@@ -130,7 +130,7 @@ def ncc_at_shift(A: np.ndarray, B: np.ndarray, dy: int, dx: int) -> float:
     return float((Pa * Pb).sum() / denom)
 
 
-def fft_phase_correlation(
+def pair_phase_correlation(
     A: np.ndarray,
     B: np.ndarray,
     max_shift: Optional[tuple[int, int]] = None,

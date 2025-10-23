@@ -26,7 +26,7 @@ crop1 = img[:, start1_x : start1_x + crop_w]
 crop2 = img[:, start2_x : start2_x + crop_w]
 
 # Save
-outdir = Path("./examples/inputs2")
+outdir = Path("./examples/toy/inputs")
 outdir.mkdir(parents=True, exist_ok=True)
 p0 = outdir / "0.png"
 p1 = outdir / "1.png"
