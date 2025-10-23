@@ -158,7 +158,7 @@ def recurse(path: str):
         groups = defaultdict(lambda: [])
         for input in inputs:
             name = input.stem
-            if len(name) > 1:
+            if len(name) > 1 and name[-1].isdigit():
                 key, val = name[:-1], int(name[-1])
                 groups[key].append([val, input])
 
@@ -183,7 +183,7 @@ def recurse(path: str):
         name = name.replace(" ", "_").replace("/", "__")
         name = f"{name}_{key}.png"
         out_path = out_dir / name
-        print(out_path)
+        tqdm.write(str(out_path))
         images = [read_gray_f32(p) for p in img_paths]
         fused = do_stitch_multi(*images)
         imsave(str(out_path), (np.clip(fused, 0, 1) * 255).astype(np.uint8))
